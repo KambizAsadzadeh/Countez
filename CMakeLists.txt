@@ -14,7 +14,7 @@ endif()
 
 # ------ PROJECT INFO ------
 # Options
-set(PROJECT_NAME "ProjectTemplate" CACHE STRING "Project Name")
+set(PROJECT_NAME "Countez" CACHE STRING "Project Name")
 set(PROJECT_TARGET ${PROJECT_NAME} CACHE STRING "Target Name")
 
 set(PROJECT_VERSION_MAJOR 0)
@@ -53,7 +53,7 @@ set(PROJECT_VERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}.${PROJECT_
 project(
     ${PROJECT_NAME}
     LANGUAGES CXX
-    DESCRIPTION "Description of your project."
+    DESCRIPTION "Countez is a cross-platform tool for displays statistics about your projects. Countez will show the number of files, total lines within those files and code, comments, macros and blanks grouped by language and tools."
     HOMEPAGE_URL "https://kambizasadzadeh.com"
     VERSION ${PROJECT_VERSION}
     )
